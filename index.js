@@ -28,3 +28,12 @@ function sayHiToHeadphonedRoommate(string) {
         return "I would love to!";
     }
 }
+
+// Example usage
+console.log(shout("hello")); // HELLO
+console.log(whisper("HELLO")); // hello
+logShout("hello"); // Logs: HELLO
+logWhisper("HELLO"); // Logs: hello
+console.log(sayHiToHeadphonedRoommate("hello")); // I can't hear you!
+console.log(sayHiToHeadphonedRoommate("HELLO")); // YES INDEED!
+console.log(sayHiToHeadphonedRoommate("Let's have dinner together!")); // I would love to!
